@@ -1,9 +1,8 @@
 # Project Kali.
 
 ## Script:
-
 ```lua
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyphonn/ProjectKaliUpdated/main/main.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Zyphonn/ProjectKaliUpdated/main/script.lua'))()
 ```
 
 ## Description
