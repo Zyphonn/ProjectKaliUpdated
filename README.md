@@ -25,10 +25,7 @@ Internal Executor
             (+ some good looking ui i think idk it might be bad ig isdifkdjifdidf)
 
 ## Images
-
-Script Hub (home):
 ![a](https://github.com/Zyphonn/ProjectKaliUpdated/assets/167906747/99f05ac3-9b48-472d-9877-b6a824df94a2)
-Executor: 
 ![sh](https://github.com/Zyphonn/ProjectKaliUpdated/assets/167906747/ba1b5fd6-3c24-4f77-b326-e44491486bfa)
 
 ## Credits
