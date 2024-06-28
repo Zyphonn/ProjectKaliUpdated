@@ -27,9 +27,9 @@ Internal Executor
 ## Images
 
 Script Hub (home):
-https://cdn.discordapp.com/attachments/1230924805495328861/1256348681762902066/image.png?ex=66807163&is=667f1fe3&hm=0ce8810d476c4c787ae411d262131265ba2acf3fba5aaa42b886e2d0f7dd3fcf&
+![a](https://github.com/Zyphonn/ProjectKaliUpdated/assets/167906747/99f05ac3-9b48-472d-9877-b6a824df94a2)
 Executor: 
-https://cdn.discordapp.com/attachments/1230924805495328861/1256353270058717265/image.png?ex=668075a9&is=667f2429&hm=52e57dae1cf86a7218b8c8fb9666c95991ba918234350f91482eccfd8a8fca53&
+![sh](https://github.com/Zyphonn/ProjectKaliUpdated/assets/167906747/ba1b5fd6-3c24-4f77-b326-e44491486bfa)
 
 ## Credits
 
