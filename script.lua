@@ -15,6 +15,11 @@ i couldnt obfuscate this or beautify it cuz every time i try it lags tf out of m
 but yeah
 enjoy ig
 ]]
+-- imie his Gui to Lua
+-- Version: 1
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local project = Instance.new("TextLabel")
@@ -581,7 +586,7 @@ end
 
 -- Scripts:
 
-local function PZFAYQ_fake_script() -- ScreenGui.thing 
+local function PAXHET_fake_script() -- ScreenGui.thing 
 	local script = Instance.new('LocalScript', ScreenGui)
 	local req = require
 	local require = function(obj)
@@ -625,8 +630,8 @@ local function PZFAYQ_fake_script() -- ScreenGui.thing
 	end
 	intro()
 end
-coroutine.wrap(PZFAYQ_fake_script)()
-local function EIJHZ_fake_script() -- next.Anims 
+coroutine.wrap(PAXHET_fake_script)()
+local function RJLH_fake_script() -- next.Anims 
 	local script = Instance.new('LocalScript', next)
 	local req = require
 	local require = function(obj)
@@ -646,8 +651,8 @@ local function EIJHZ_fake_script() -- next.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(EIJHZ_fake_script)()
-local function MFSCHWQ_fake_script() -- next.LocalScript 
+coroutine.wrap(RJLH_fake_script)()
+local function NBCMS_fake_script() -- next.LocalScript 
 	local script = Instance.new('LocalScript', next)
 	local req = require
 	local require = function(obj)
@@ -681,8 +686,8 @@ local function MFSCHWQ_fake_script() -- next.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MFSCHWQ_fake_script)()
-local function TSZK_fake_script() -- TextButton.Anims 
+coroutine.wrap(NBCMS_fake_script)()
+local function XLKSESU_fake_script() -- TextButton.Anims 
 	local script = Instance.new('LocalScript', TextButton)
 	local req = require
 	local require = function(obj)
@@ -702,8 +707,8 @@ local function TSZK_fake_script() -- TextButton.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(TSZK_fake_script)()
-local function WGGD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(XLKSESU_fake_script)()
+local function TALCDZ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 	local req = require
 	local require = function(obj)
@@ -3366,8 +3371,8 @@ local function WGGD_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WGGD_fake_script)()
-local function ULQAK_fake_script() -- TextButton_2.Anims 
+coroutine.wrap(TALCDZ_fake_script)()
+local function GMNNS_fake_script() -- TextButton_2.Anims 
 	local script = Instance.new('LocalScript', TextButton_2)
 	local req = require
 	local require = function(obj)
@@ -3387,8 +3392,8 @@ local function ULQAK_fake_script() -- TextButton_2.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(ULQAK_fake_script)()
-local function PRUD_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GMNNS_fake_script)()
+local function TTMTKO_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 	local req = require
 	local require = function(obj)
@@ -3403,8 +3408,8 @@ local function PRUD_fake_script() -- TextButton_2.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua'))()
 	end)
 end
-coroutine.wrap(PRUD_fake_script)()
-local function FNVENWU_fake_script() -- TextButton_3.Anims 
+coroutine.wrap(TTMTKO_fake_script)()
+local function LVHDOVC_fake_script() -- TextButton_3.Anims 
 	local script = Instance.new('LocalScript', TextButton_3)
 	local req = require
 	local require = function(obj)
@@ -3424,8 +3429,8 @@ local function FNVENWU_fake_script() -- TextButton_3.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(FNVENWU_fake_script)()
-local function CRBNKKC_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(LVHDOVC_fake_script)()
+local function LSFWF_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 	local req = require
 	local require = function(obj)
@@ -3440,8 +3445,8 @@ local function CRBNKKC_fake_script() -- TextButton_3.LocalScript
 		--script
 	end)
 end
-coroutine.wrap(CRBNKKC_fake_script)()
-local function NGTZE_fake_script() -- TextButton_4.Anims 
+coroutine.wrap(LSFWF_fake_script)()
+local function EKXH_fake_script() -- TextButton_4.Anims 
 	local script = Instance.new('LocalScript', TextButton_4)
 	local req = require
 	local require = function(obj)
@@ -3461,8 +3466,8 @@ local function NGTZE_fake_script() -- TextButton_4.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(NGTZE_fake_script)()
-local function IPQQBC_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(EKXH_fake_script)()
+local function OVIUC_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 	local req = require
 	local require = function(obj)
@@ -3477,8 +3482,8 @@ local function IPQQBC_fake_script() -- TextButton_4.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/laeraz/midnightcc/main/public.lua"))()
 	end)
 end
-coroutine.wrap(IPQQBC_fake_script)()
-local function SIRKN_fake_script() -- TextButton_5.Anims 
+coroutine.wrap(OVIUC_fake_script)()
+local function OKSV_fake_script() -- TextButton_5.Anims 
 	local script = Instance.new('LocalScript', TextButton_5)
 	local req = require
 	local require = function(obj)
@@ -3498,8 +3503,8 @@ local function SIRKN_fake_script() -- TextButton_5.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(SIRKN_fake_script)()
-local function IWQX_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(OKSV_fake_script)()
+local function UJOK_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 	local req = require
 	local require = function(obj)
@@ -3514,8 +3519,8 @@ local function IWQX_fake_script() -- TextButton_5.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lxte/cmd/main/testing-main.lua"))()
 	end)
 end
-coroutine.wrap(IWQX_fake_script)()
-local function HWPYN_fake_script() -- TextButton_6.Anims 
+coroutine.wrap(UJOK_fake_script)()
+local function HJYIJJ_fake_script() -- TextButton_6.Anims 
 	local script = Instance.new('LocalScript', TextButton_6)
 	local req = require
 	local require = function(obj)
@@ -3535,8 +3540,8 @@ local function HWPYN_fake_script() -- TextButton_6.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(HWPYN_fake_script)()
-local function IWNQN_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(HJYIJJ_fake_script)()
+local function TJQQK_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 	local req = require
 	local require = function(obj)
@@ -3551,8 +3556,8 @@ local function IWNQN_fake_script() -- TextButton_6.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(IWNQN_fake_script)()
-local function KYMLKJC_fake_script() -- TextButton_7.Anims 
+coroutine.wrap(TJQQK_fake_script)()
+local function CKIUQ_fake_script() -- TextButton_7.Anims 
 	local script = Instance.new('LocalScript', TextButton_7)
 	local req = require
 	local require = function(obj)
@@ -3572,8 +3577,8 @@ local function KYMLKJC_fake_script() -- TextButton_7.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(KYMLKJC_fake_script)()
-local function MSKJJNV_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(CKIUQ_fake_script)()
+local function SWKNJIA_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 	local req = require
 	local require = function(obj)
@@ -5290,8 +5295,8 @@ local function MSKJJNV_fake_script() -- TextButton_7.LocalScript
 		getgenv().MoreUNC = true
 	end)
 end
-coroutine.wrap(MSKJJNV_fake_script)()
-local function SFFOD_fake_script() -- TextButton_8.Anims 
+coroutine.wrap(SWKNJIA_fake_script)()
+local function KUVTC_fake_script() -- TextButton_8.Anims 
 	local script = Instance.new('LocalScript', TextButton_8)
 	local req = require
 	local require = function(obj)
@@ -5311,8 +5316,8 @@ local function SFFOD_fake_script() -- TextButton_8.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(SFFOD_fake_script)()
-local function CUJGR_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(KUVTC_fake_script)()
+local function KJPE_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 	local req = require
 	local require = function(obj)
@@ -5370,8 +5375,8 @@ local function CUJGR_fake_script() -- TextButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CUJGR_fake_script)()
-local function GEDH_fake_script() -- TextButton_9.Anims 
+coroutine.wrap(KJPE_fake_script)()
+local function DWNGB_fake_script() -- TextButton_9.Anims 
 	local script = Instance.new('LocalScript', TextButton_9)
 	local req = require
 	local require = function(obj)
@@ -5391,8 +5396,8 @@ local function GEDH_fake_script() -- TextButton_9.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(GEDH_fake_script)()
-local function ZOXV_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(DWNGB_fake_script)()
+local function EMDO_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 	local req = require
 	local require = function(obj)
@@ -5407,8 +5412,8 @@ local function ZOXV_fake_script() -- TextButton_9.LocalScript
 		game:FindFirstChildOfClass("Players").LocalPlayer.Character.Humanoid.WalkSpeed=game:FindFirstChildOfClass("Players").LocalPlayer.Character.Humanoid.WalkSpeed+10
 	end)
 end
-coroutine.wrap(ZOXV_fake_script)()
-local function ATJRNU_fake_script() -- TextButton_10.Anims 
+coroutine.wrap(EMDO_fake_script)()
+local function HTTQ_fake_script() -- TextButton_10.Anims 
 	local script = Instance.new('LocalScript', TextButton_10)
 	local req = require
 	local require = function(obj)
@@ -5428,8 +5433,8 @@ local function ATJRNU_fake_script() -- TextButton_10.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(ATJRNU_fake_script)()
-local function ZGMN_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(HTTQ_fake_script)()
+local function WWVIVP_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 	local req = require
 	local require = function(obj)
@@ -5444,8 +5449,8 @@ local function ZGMN_fake_script() -- TextButton_10.LocalScript
 		game:FindFirstChildOfClass("Players").LocalPlayer.Character.Humanoid.WalkSpeed=game:FindFirstChildOfClass("Players").LocalPlayer.Character.Humanoid.WalkSpeed-10
 	end)
 end
-coroutine.wrap(ZGMN_fake_script)()
-local function CTWK_fake_script() -- TextButton_11.Anims 
+coroutine.wrap(WWVIVP_fake_script)()
+local function OKALIHB_fake_script() -- TextButton_11.Anims 
 	local script = Instance.new('LocalScript', TextButton_11)
 	local req = require
 	local require = function(obj)
@@ -5465,8 +5470,8 @@ local function CTWK_fake_script() -- TextButton_11.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(CTWK_fake_script)()
-local function GKKD_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(OKALIHB_fake_script)()
+local function CEWTRW_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 	local req = require
 	local require = function(obj)
@@ -5481,8 +5486,8 @@ local function GKKD_fake_script() -- TextButton_11.LocalScript
 		print("'yeah i havent really finished this sooo-' -Zyphonz")
 	end)
 end
-coroutine.wrap(GKKD_fake_script)()
-local function IQRKS_fake_script() -- TextButton_12.Anims 
+coroutine.wrap(CEWTRW_fake_script)()
+local function ONJE_fake_script() -- TextButton_12.Anims 
 	local script = Instance.new('LocalScript', TextButton_12)
 	local req = require
 	local require = function(obj)
@@ -5502,8 +5507,8 @@ local function IQRKS_fake_script() -- TextButton_12.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(IQRKS_fake_script)()
-local function YWDAXV_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(ONJE_fake_script)()
+local function LOSDUKI_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 	local req = require
 	local require = function(obj)
@@ -5518,8 +5523,8 @@ local function YWDAXV_fake_script() -- TextButton_12.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/Nameless-Admin-No-Byfron-Kick/main/Source",true))()
 	end)
 end
-coroutine.wrap(YWDAXV_fake_script)()
-local function VFTVBOX_fake_script() -- clr.Anims 
+coroutine.wrap(LOSDUKI_fake_script)()
+local function PDHCDC_fake_script() -- clr.Anims 
 	local script = Instance.new('LocalScript', clr)
 	local req = require
 	local require = function(obj)
@@ -5539,8 +5544,8 @@ local function VFTVBOX_fake_script() -- clr.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(VFTVBOX_fake_script)()
-local function XSTZNE_fake_script() -- clr.LocalScript 
+coroutine.wrap(PDHCDC_fake_script)()
+local function JOPWBT_fake_script() -- clr.LocalScript 
 	local script = Instance.new('LocalScript', clr)
 	local req = require
 	local require = function(obj)
@@ -5555,8 +5560,8 @@ local function XSTZNE_fake_script() -- clr.LocalScript
 		script.Parent.Parent.ScrollingFrame.TextBox.Text="--Powered by Cyclone 2B"
 	end)
 end
-coroutine.wrap(XSTZNE_fake_script)()
-local function PLZDZHF_fake_script() -- p2.LocalScript 
+coroutine.wrap(JOPWBT_fake_script)()
+local function VYCJC_fake_script() -- p2.LocalScript 
 	local script = Instance.new('LocalScript', p2)
 	local req = require
 	local require = function(obj)
@@ -5569,8 +5574,7 @@ local function PLZDZHF_fake_script() -- p2.LocalScript
 
 	local cb=script.Parent.ScrollingFrame.TextBox
 	script.Parent.ScrollingFrame.TextLabel.RichText=true
-	local repl=game:GetService("ReplicatedStorage")
-	local hm=require(repl:WaitForChild("module"))
+	local hm=require(script.Parent.module)
 	while true do
 		task.wait(0.00001)
 		local sc = cb.Text
@@ -5579,22 +5583,8 @@ local function PLZDZHF_fake_script() -- p2.LocalScript
 	end
 	
 end
-coroutine.wrap(PLZDZHF_fake_script)()
-local function HIQAUAX_fake_script() -- p2.syntax_highlighting 
-	local script = Instance.new('LocalScript', p2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.module.Parent=game:FindFirstChildOfClass("ReplicatedStorage")
-end
-coroutine.wrap(HIQAUAX_fake_script)()
-local function CDTDX_fake_script() -- exe.Anims 
+coroutine.wrap(VYCJC_fake_script)()
+local function TNSTP_fake_script() -- exe.Anims 
 	local script = Instance.new('LocalScript', exe)
 	local req = require
 	local require = function(obj)
@@ -5614,8 +5604,8 @@ local function CDTDX_fake_script() -- exe.Anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
-coroutine.wrap(CDTDX_fake_script)()
-local function MVJG_fake_script() -- exe.LocalScript 
+coroutine.wrap(TNSTP_fake_script)()
+local function BSRN_fake_script() -- exe.LocalScript 
 	local script = Instance.new('LocalScript', exe)
 	local req = require
 	local require = function(obj)
@@ -5666,8 +5656,8 @@ local function MVJG_fake_script() -- exe.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MVJG_fake_script)()
-local function DMMOJV_fake_script() -- Frame.DragScript 
+coroutine.wrap(BSRN_fake_script)()
+local function ZNLUMDA_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 	local req = require
 	local require = function(obj)
@@ -5726,4 +5716,4 @@ local function DMMOJV_fake_script() -- Frame.DragScript
 	    end
 	end)
 end
-coroutine.wrap(DMMOJV_fake_script)()
+coroutine.wrap(ZNLUMDA_fake_script)()
