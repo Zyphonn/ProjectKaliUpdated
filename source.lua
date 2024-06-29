@@ -64,7 +64,6 @@ Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.ClipsDescendants = true
-Frane.ZIndex=999999
 Frame.Position = UDim2.new(0.499694556, 0, 0.5, 0)
 project.Name = "project"
 project.Parent = Frame
