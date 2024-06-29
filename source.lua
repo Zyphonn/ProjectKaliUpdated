@@ -15,14 +15,11 @@ i couldnt obfuscate this or beautify it cuz every time i try it lags tf out of m
 but yeah
 enjoy ig
 ]]
+-- imie his Gui to Lua
+-- Version: 1
 
---[[
-[!] - UI Conversion from line 25 to 376 (i think). If you wanna customize the ui, copy and paste the source into studio and copy what appears in PlayerGui.
+-- Instances:
 
-Converted using Imies Gui Converter
-			Free gui to lua converter inside the toolbox
-]]
---// Variables //--
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local project = Instance.new("TextLabel")
@@ -54,10 +51,12 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local TextLabel = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
 local exe = Instance.new("TextButton")
---// Properties //--
+
+--Properties:
+
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn=false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 Frame.Parent = ScreenGui
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
@@ -65,6 +64,7 @@ Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.ClipsDescendants = true
 Frame.Position = UDim2.new(0.499694556, 0, 0.5, 0)
+
 project.Name = "project"
 project.Parent = Frame
 project.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -80,6 +80,7 @@ project.TextScaled = true
 project.TextSize = 14.000
 project.TextTransparency = 1.000
 project.TextWrapped = true
+
 Kali.Name = "Kali"
 Kali.Parent = Frame
 Kali.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -95,10 +96,12 @@ Kali.TextScaled = true
 Kali.TextSize = 14.000
 Kali.TextTransparency = 1.000
 Kali.TextWrapped = true
+
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 134, 134))}
 UIGradient.Offset = Vector2.new(0, 9)
 UIGradient.Rotation = 70
 UIGradient.Parent = Kali
+
 sh.Name = "sh"
 sh.Parent = Frame
 sh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -113,8 +116,10 @@ sh.TextColor3 = Color3.fromRGB(255, 255, 255)
 sh.TextScaled = true
 sh.TextSize = 14.000
 sh.TextWrapped = true
+
 Main.Name = "Main"
 Main.Parent = Frame
+
 Kali_2.Name = "Kali"
 Kali_2.Parent = Main
 Kali_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -129,9 +134,11 @@ Kali_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Kali_2.TextScaled = true
 Kali_2.TextSize = 14.000
 Kali_2.TextWrapped = true
+
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 134, 134))}
 UIGradient_2.Rotation = 70
 UIGradient_2.Parent = Kali_2
+
 project_2.Name = "project"
 project_2.Parent = Main
 project_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -146,6 +153,7 @@ project_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 project_2.TextScaled = true
 project_2.TextSize = 14.000
 project_2.TextWrapped = true
+
 next.Name = "next"
 next.Parent = Main
 next.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -159,8 +167,10 @@ next.Text = "Executor"
 next.TextColor3 = Color3.fromRGB(255, 255, 255)
 next.TextSize = 14.000
 next.TextWrapped = true
+
 p1.Name = "p1"
 p1.Parent = Main
+
 TextButton.Parent = p1
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
@@ -173,6 +183,7 @@ TextButton.Text = "Patchma Hub V23"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
+
 TextButton_2.Parent = p1
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BackgroundTransparency = 1.000
@@ -185,6 +196,7 @@ TextButton_2.Text = "UNC Test"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 14.000
 TextButton_2.TextWrapped = true
+
 TextButton_3.Parent = p1
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.BackgroundTransparency = 1.000
@@ -196,6 +208,7 @@ TextButton_3.Font = Enum.Font.Code
 TextButton_3.Text = "c00lgui FE"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 14.000
+
 TextButton_4.Parent = p1
 TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.BackgroundTransparency = 1.000
@@ -207,6 +220,7 @@ TextButton_4.Font = Enum.Font.Code
 TextButton_4.Text = "MidnightCC"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 14.000
+
 TextButton_5.Parent = p1
 TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.BackgroundTransparency = 1.000
@@ -218,6 +232,7 @@ TextButton_5.Font = Enum.Font.Code
 TextButton_5.Text = "CMD (by LXTE)"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.TextSize = 14.000
+
 TextButton_6.Parent = p1
 TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_6.BackgroundTransparency = 1.000
@@ -229,6 +244,7 @@ TextButton_6.Font = Enum.Font.Code
 TextButton_6.Text = "Infinite yield"
 TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_6.TextSize = 14.000
+
 TextButton_7.Parent = p1
 TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.BackgroundTransparency = 1.000
@@ -241,6 +257,7 @@ TextButton_7.Text = "More UNC"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 14.000
 TextButton_7.TextWrapped = true
+
 TextButton_8.Parent = p1
 TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.BackgroundTransparency = 1.000
@@ -253,6 +270,7 @@ TextButton_8.Text = "Walkfling Toggle"
 TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
+
 TextButton_9.Parent = p1
 TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.BackgroundTransparency = 1.000
@@ -265,6 +283,7 @@ TextButton_9.Text = "+10 Speed"
 TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.TextSize = 14.000
 TextButton_9.TextWrapped = true
+
 TextButton_10.Parent = p1
 TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_10.BackgroundTransparency = 1.000
@@ -277,6 +296,7 @@ TextButton_10.Text = "-10 Speed"
 TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_10.TextSize = 14.000
 TextButton_10.TextWrapped = true
+
 TextButton_11.Parent = p1
 TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_11.BackgroundTransparency = 1.000
@@ -289,6 +309,7 @@ TextButton_11.Text = "Noclip"
 TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_11.TextSize = 14.000
 TextButton_11.TextWrapped = true
+
 TextButton_12.Parent = p1
 TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.BackgroundTransparency = 1.000
@@ -300,8 +321,10 @@ TextButton_12.Font = Enum.Font.Code
 TextButton_12.Text = "Nameless Admin"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 14.000
+
 p2.Name = "p2"
 p2.Parent = Main
+
 clr.Name = "clr"
 clr.Parent = p2
 clr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -316,7 +339,9 @@ clr.Text = "Clear"
 clr.TextColor3 = Color3.fromRGB(255, 255, 255)
 clr.TextSize = 14.000
 clr.TextWrapped = true
+
 UICorner.Parent = p2
+
 ScrollingFrame.Parent = p2
 ScrollingFrame.Active = true
 ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -329,6 +354,7 @@ ScrollingFrame.Size = UDim2.new(0, 300, 0, 164)
 ScrollingFrame.Visible = false
 ScrollingFrame.CanvasSize = UDim2.new(10, 0, 99, 0)
 ScrollingFrame.ScrollBarThickness = 4
+
 TextLabel.Parent = ScrollingFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
@@ -343,6 +369,7 @@ TextLabel.TextSize = 14.000
 TextLabel.TextTransparency = 0.400
 TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 TextLabel.TextYAlignment = Enum.TextYAlignment.Top
+
 TextBox.Parent = ScrollingFrame
 TextBox.BackgroundColor3 = Color3.fromRGB(44, 15, 15)
 TextBox.BackgroundTransparency = 1.000
@@ -359,6 +386,7 @@ TextBox.TextTransparency = 0.400
 TextBox.TextWrapped = true
 TextBox.TextXAlignment = Enum.TextXAlignment.Left
 TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
 exe.Name = "exe"
 exe.Parent = p2
 exe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -373,16 +401,20 @@ exe.Text = "Execute"
 exe.TextColor3 = Color3.fromRGB(255, 255, 255)
 exe.TextSize = 14.000
 exe.TextWrapped = true
---// Scripts //--
-do --this is for the syntax highlighting stuff
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- p2.module
 	local script = Instance.new('ModuleScript', p2)
 	script.Name = "module"
-	local function module_script() --instead of defining everything inside of a local script, its in a module so its a *tad* bit more stable *i think*
+	local function module_script()
 		local highlighter = {}
 		local keywords = {
 			lua = {
 				"and", "break", "or", "else", "elseif", "if", "then", "until", "repeat", "while", "do", "for", "in", "end",
-				"local", "return", "function", "export", "KaliMata", "KaliMa", "Zyphonz" --you can add custom lua functions on line 385-386, 389-393, and 396.
+				"local", "return", "function", "export", "KaliMata", "KaliMa", "Darkness", "Carnage", "Zyphonz"
 			},
 			rbx = {
 				"game", "workspace", "script", "math", "string", "table", "task", "wait", "select", "next", "Enum",
@@ -396,7 +428,7 @@ do --this is for the syntax highlighting stuff
 			}
 		}
 		
-		local colors = { --you can customize these if u want
+		local colors = { 
 			numbers = Color3.fromRGB(255, 198, 0),
 			boolean = Color3.fromRGB(243, 191, 0),
 			operator = Color3.fromRGB(204, 204, 204),
@@ -550,7 +582,11 @@ do --this is for the syntax highlighting stuff
 	end
 	fake_module_scripts[script] = module_script
 end
-local function PAXHET_fake_script() --main intro handler thingy
+
+
+-- Scripts:
+
+local function PAXHET_fake_script() -- ScreenGui.thing 
 	local script = Instance.new('LocalScript', ScreenGui)
 	local req = require
 	local require = function(obj)
@@ -595,7 +631,7 @@ local function PAXHET_fake_script() --main intro handler thingy
 	intro()
 end
 coroutine.wrap(PAXHET_fake_script)()
-local function RJLH_fake_script() --btn anims
+local function RJLH_fake_script() -- next.Anims 
 	local script = Instance.new('LocalScript', next)
 	local req = require
 	local require = function(obj)
@@ -615,9 +651,6 @@ local function RJLH_fake_script() --btn anims
 		ts:Create(script.Parent,ti,{TextColor3=Color3.new(1, 1, 1)}):Play()
 	end)
 end
---[[im not adding any more comments after this point cuz i dont wanna (im bored and wanna do something except write lua)
-so any comments after this point are auto generated by the ui converter
-]]
 coroutine.wrap(RJLH_fake_script)()
 local function NBCMS_fake_script() -- next.LocalScript 
 	local script = Instance.new('LocalScript', next)
