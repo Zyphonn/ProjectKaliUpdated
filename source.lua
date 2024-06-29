@@ -15,11 +15,6 @@ i couldnt obfuscate this or beautify it cuz every time i try it lags tf out of m
 but yeah
 enjoy ig
 ]]
--- imie his Gui to Lua
--- Version: 1
-
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local project = Instance.new("TextLabel")
